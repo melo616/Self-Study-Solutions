@@ -12,4 +12,15 @@ target = 9
 #                     answer.append(j)
 #     print(answer)
 
-# twoSum(nums, target)
+
+def twoSum(nums, target):
+    visited = {}
+    for index, value in enumerate(nums):
+        difference = target - value
+
+        if difference in visited:
+            print([visited[difference], index])
+        else:
+            visited[value] = index
+
+twoSum(nums, target)
