@@ -6,15 +6,15 @@
 function checkIfPalindrome(s) {  
     let left = 0;
     let right = s.length-1;
-    while (left <= right) {
+    while (left < right) {
         if (s[left] === s[right]) {
             left++;
             right--;
         } else {
-            return false
+            return false;
         }
     }
-    return true
+    return true;
 }
 
 let test1 = "racecar"
