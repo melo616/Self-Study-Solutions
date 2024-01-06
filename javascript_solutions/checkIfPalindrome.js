@@ -1,3 +1,8 @@
+// The function tests if a given string sample is a palindrome (the same forwards and backwards).
+
+// Two pointer solution:
+// Time complexity: O(n) (linear time) - the number of iterations is proportional to the length of the string.
+
 function checkIfPalindrome(sample) {  
     let left = 0;
     let right = sample.length-1;
