@@ -2,6 +2,7 @@
 
 // Two pointer solution:
 // Time complexity: O(n) (linear time) - the number of iterations is proportional to the length of the string.
+// Space complexity: O(1) - always uses only 2 integer variables regardless of the size of the input.
 
 function checkIfPalindrome(s) {  
     let left = 0;
