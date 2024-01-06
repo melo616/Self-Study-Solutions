@@ -12,7 +12,7 @@ target = 9
 #                     answer.append(j)
 #     print(answer)
 
-
+# runtime: O(n)
 def twoSum(nums, target):
     visited = {}
     for index, value in enumerate(nums):

@@ -17,3 +17,8 @@ class LinkedList:
                 current.next = new_node
             else:
                 self.head = new_node
+
+e1 = Node(1)
+e2 = Node(2)
+print(e1)
+ll = LinkedList(e1)
