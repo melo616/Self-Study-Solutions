@@ -51,4 +51,4 @@ function threeSum(nums) {
     return triplets;
 };
 
-threeSums([12, 3, 1, 2, -6, 5, -8, 6], 0);
+console.log(threeSum([12, 3, 1, 2, -6, 5, -8, 6]));
