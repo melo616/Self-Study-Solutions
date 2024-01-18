@@ -8,7 +8,7 @@ function maxConsecOnes3(nums, k) {
         }
         while (flipCount > k) {
             if (nums[left] === 0) {
-                curr--;
+                flipCount--;
             }
             left++;
         }
