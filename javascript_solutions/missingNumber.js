@@ -4,14 +4,12 @@
 //Time: O(n log n) - due to sorting function; Space: O(1)
 function missingNumber(nums) {
     nums.sort((a, b) => a - b);
-    let num = 0;
     for (i = 0; i < nums.length; i++) {
-        if (nums[i] !== num) {
+        if (nums[i] !== i) {
             return i;
         }
-        num++;
     }
-    return num;
+    return i;
 }
 
 nums1 = [3,0,1] // 2
